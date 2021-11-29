@@ -62,7 +62,7 @@ Makes a normal query with arguments.
 
 ### Large table read (stream results)
 
-Makes a normal query with arguments.
+Reads a bunch of rows by streaming the data. Good for reading data from large tables.
 
 ```python
 >>> arguments = (1638154221,)
