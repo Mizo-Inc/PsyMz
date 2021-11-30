@@ -90,7 +90,8 @@ class PostgresConnection:
             raise e
 
     def execute_many(self, size: int, statement: str, args=None):
-        self.__execute_many__(size=size, statement=statement, args=args, allow_reconnect=True)
+        for data in self.__execute_many__(size=size, statement=statement, args=args, allow_reconnect=True):
+            yield data
 
     def __execute_many__(self, size: int, statement: str, args=None, allow_reconnect=True):
         try:
