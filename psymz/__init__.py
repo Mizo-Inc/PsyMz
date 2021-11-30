@@ -4,7 +4,7 @@ PsyMz
 A simple python package for keeping Postgres connections alive indefinitely.
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __author__ = 'John Ades'
 __credits__ = 'https://www.psycopg.org/'
 

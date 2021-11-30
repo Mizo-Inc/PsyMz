@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='PsyMz',
-    version='1.0.0',
+    version='1.0.1',
     description='A simple python package for keeping Postgres connections alive indefinitely.',
     url='https://github.com/Mizo-Inc/psymz',
     author='John Ades',
